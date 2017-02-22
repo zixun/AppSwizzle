@@ -1,8 +1,8 @@
 # AppSwizzle
 
-[![Version](https://img.shields.io/cocoapods/v/AppSwizzle.svg?style=flat)](http://cocoapods.org/pods/AppSwizzle)
-[![License](https://img.shields.io/cocoapods/l/AppSwizzle.svg?style=flat)](http://cocoapods.org/pods/AppSwizzle)
-[![Platform](https://img.shields.io/cocoapods/p/AppSwizzle.svg?style=flat)](http://cocoapods.org/pods/AppSwizzle)
+[![Swift 3.0+](https://img.shields.io/badge/Swift-3.0%2B-orange.svg)](https://github.com/zixun/AppBaseKit)
+[![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)](https://github.com/zixun/AppBaseKit)
+[![MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 
 ## Example
 
