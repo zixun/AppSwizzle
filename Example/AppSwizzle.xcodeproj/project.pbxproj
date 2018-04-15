@@ -27,7 +27,7 @@
 		9E24F9DE1E7FB92D001AD0D7 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		9E24F9DF1E7FB92D001AD0D7 /* AppSwizzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSwizzle.swift; sourceTree = "<group>"; };
 		E26F9D2C0E0879A1F36DBA49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E2A536F5AEFAB64066837735 /* AppSwizzle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AppSwizzle.podspec; path = ../AppSwizzle.podspec; sourceTree = "<group>"; };
+		E2A536F5AEFAB64066837735 /* AppSwizzle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AppSwizzle.podspec; path = ../AppSwizzle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EF9F0C8A4C454C95207FD5A2 /* Pods-AppSwizzle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppSwizzle_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppSwizzle_Tests/Pods-AppSwizzle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
