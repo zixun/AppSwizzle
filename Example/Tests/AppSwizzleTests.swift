@@ -15,7 +15,7 @@ class AppSwizzleTests: XCTestCase {
     func testSwizzleInstanceMethod() {
         let orig = #selector(AppSwizzleTests.origSelector_testSwizzleInstanceMethod)
         let alter = #selector(AppSwizzleTests.alterSelector_testSwizzleInstanceMethod)
-        AppSwizzleTests.swizzleInstanceMethod(origSelector: orig, toAlterSelector: alter)
+         _ = AppSwizzleTests.swizzleInstanceMethod(origSelector: orig, toAlterSelector: alter)
         
         self.origSelector_testSwizzleInstanceMethod()
     }
@@ -23,7 +23,7 @@ class AppSwizzleTests: XCTestCase {
     func testSwizzleClassMethod() {
         let orig = #selector(AppSwizzleTests.origSelector_testSwizzleClassMethod)
         let alter = #selector(AppSwizzleTests.alterSelector_testSwizzleClassMethod)
-        AppSwizzleTests.swizzleClassMethod(origSelector: orig, toAlterSelector: alter)
+        _ = AppSwizzleTests.swizzleClassMethod(origSelector: orig, toAlterSelector: alter)
         
         AppSwizzleTests.origSelector_testSwizzleClassMethod()
     }
@@ -31,7 +31,7 @@ class AppSwizzleTests: XCTestCase {
     func testSwizzleInstanceMethodToAlterClass()  {
         let orig = #selector(AppSwizzleTests.origSelector_testSwizzleInstanceMethodToAlterClass)
         let alter = #selector(OtherClass.alterSelector_testSwizzleInstanceMethodToAlterClass)
-        AppSwizzleTests.swizzleInstanceMethod(origSelector: orig, toAlterSelector: alter, inAlterClass: OtherClass.classForCoder())
+        _ = AppSwizzleTests.swizzleInstanceMethod(origSelector: orig, toAlterSelector: alter, inAlterClass: OtherClass.classForCoder())
         self.origSelector_testSwizzleInstanceMethodToAlterClass()
     }
     
@@ -39,7 +39,7 @@ class AppSwizzleTests: XCTestCase {
         let orig = #selector(AppSwizzleTests.origSelector_testSwizzleClassMethodToAlterClass)
         let alter = #selector(OtherClass.alterSelector_testSwizzleClassMethodToAlterClass)
         
-        AppSwizzleTests.swizzleClassMethod(origSelector: orig, toAlterSelector: alter, inAlterClass: OtherClass.classForCoder())
+        _ = AppSwizzleTests.swizzleClassMethod(origSelector: orig, toAlterSelector: alter, inAlterClass: OtherClass.classForCoder())
         
         AppSwizzleTests.origSelector_testSwizzleClassMethodToAlterClass()
     }

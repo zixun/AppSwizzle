@@ -18,7 +18,7 @@ public enum SwizzleResult {
 
 public extension NSObject {
     
-    public class func swizzleInstanceMethod(origSelector: Selector,
+    class func swizzleInstanceMethod(origSelector: Selector,
                                             toAlterSelector alterSelector: Selector) -> SwizzleResult {
         return self.swizzleMethod(origSelector: origSelector,
                                   toAlterSelector: alterSelector,
@@ -26,7 +26,7 @@ public extension NSObject {
                                   isClassMethod: false)
     }
     
-    public class func swizzleClassMethod(origSelector: Selector,
+    class func swizzleClassMethod(origSelector: Selector,
                                          toAlterSelector alterSelector: Selector) -> SwizzleResult {
         return self.swizzleMethod(origSelector: origSelector,
                                   toAlterSelector: alterSelector,
@@ -35,7 +35,7 @@ public extension NSObject {
     }
     
     
-    public class func swizzleInstanceMethod(origSelector: Selector,
+    class func swizzleInstanceMethod(origSelector: Selector,
                                             toAlterSelector alterSelector: Selector,
                                             inAlterClass alterClass: AnyClass) -> SwizzleResult {
         return self.swizzleMethod(origSelector: origSelector,
@@ -44,7 +44,7 @@ public extension NSObject {
                                   isClassMethod: false)
     }
     
-    public class func swizzleClassMethod(origSelector: Selector,
+    class func swizzleClassMethod(origSelector: Selector,
                                          toAlterSelector alterSelector: Selector,
                                          inAlterClass alterClass: AnyClass) -> SwizzleResult {
         return self.swizzleMethod(origSelector: origSelector,
